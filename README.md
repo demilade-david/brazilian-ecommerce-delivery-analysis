@@ -49,7 +49,8 @@ review scores — and if so, does that effect vary by product category?*
 │ ├── 02_data_cleaning.sql # SQL-based cleaning (e.g. review deduplication)
 │ └── 03_eda_analysis.sql # SQL queries validating the Python findings
 └── README.md
-
+├── reports/
+│   └── olist_delivery_report.pdf     # full business report with recommendations
 ## Notebooks
 
 **`01_cleaning.ipynb`** — Loads all 9 raw datasets, runs a structured
@@ -101,5 +102,10 @@ repository due to file size. To reproduce this project:
 3. Run `notebooks/01_cleaning.ipynb` to generate the cleaned master table
 4. Run `notebooks/02_eda_delivery_delay.ipynb` for the full analysis
   results consistent with the Python analysis.
+## Report
+
+`reports/olist_delivery_report.pdf` — a full written business report covering
+background, methodology, findings, statistical validation, and prioritized
+recommendations, written for a non-technical business audience.
 
 ## Repository Structure
