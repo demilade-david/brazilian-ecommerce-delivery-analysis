@@ -35,7 +35,7 @@ review scores — and if so, does that effect vary by product category?*
   category-specific issue.
 - These findings were independently validated in PostgreSQL, producing
 -  results consistent with the Python analysis.
--   📄 **Full written report:** [reports/olist report.pdf](reports/olist report.pdf) 
+-   📄 **Full written report:** [report/olist report.pdf](report/olist report.pdf) 
 ## Repository Structure
 ├── data/
 │ ├── raw/ # not included — see Data Source below
